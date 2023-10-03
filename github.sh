@@ -2,9 +2,9 @@
 
 #Altere as variáveis abaixo de acordo com a sua necessidade
 #na variável repositório, prefira a url do repositório baseada em https para nao termos que configurar SSH
-export name=''
-export email=""
-export repositorio="";
+export name='raposa20'
+export email="batataf782@gmail.com"
+export repositorio="https://github.com/raposa20/tcc.git";
 
 #Daqui pra baixo mexa somente se for realmente necessário ou se souber o que está fazendo :P
 
