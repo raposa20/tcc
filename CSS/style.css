@@ -1,0 +1,97 @@
+*{
+    font-family: Helvetica;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: .2s linear;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+section{
+padding: 2rem 9%;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 9%;
+    z-index: 2;
+}
+
+.header .logo img{
+    height: 17rem;
+}
+
+.home{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218, 248, 181);
+}
+
+.home .content{
+    flex: 1 1 40rem;
+}
+
+.home .content .title{
+   font-size: 6rem;
+   color: rgb(71, 136, 51);
+   text-transform: uppercase;
+}
+
+.home .content .title span{
+    text-transform: uppercase;
+    color: rgb(76, 129, 45);
+}
+
+.home .content .description{
+   font-size: 2rem;
+   font-weight: lighter;
+   line-height: 1.8;
+   padding: 1rem 0;
+   font-weight: bold;
+font-family: 'Baskerville';
+}
+
+.home .content .btn{
+    margin-top: 1rem;
+    display: inline-block;
+    padding: .9rem 3rem;
+    font-size: 1.7rem;
+    color: aliceblue;
+    background-color: rgb(76, 129, 45);
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.home .content .btn{
+    letter-spacing: 0rem;
+}
+
+.home .content .btn:hover{
+    letter-spacing: 0rem;
+}
+
+.home .image{
+    flex: 1 1 50rem;
+}
+
+.home .image img{
+    width: 100%;
+}
+
+
+

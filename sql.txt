@@ -1,0 +1,20 @@
+create database bdcoleta;
+
+use bdcoleta;
+
+create table tbagendamento(
+    numero int not null auto_increment primary key,
+    endereco varchar(50),
+    material varchar(50),
+    data date
+    );
+
+create table tbavaliacoes(
+    numero int not null auto_increment primary key,
+    nota int
+);
+
+create table tbusuarios(
+    email varchar(100) not null primary key,
+    senha varchar(255)
+    );
